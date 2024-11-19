@@ -66,13 +66,13 @@ Create a route handler in `app/ai/question/route.ts`, allow POST requests, read 
 
 https://nextjs.org/docs/app/building-your-application/routing/route-handlers#request-body
 
-Test it by sending a POST request to `http://localhost:3000/api/ai` with a JSON body:
+Test it by sending a POST request to `http://localhost:3000/ai/question` with a JSON body:
 
 ```bash
 curl -X POST http://localhost:3000/ai/question -H "Content-Type: application/json" -d '{"text": "Hello, World!"}'
 ```
 
-Or, if you have Postman, you can use that to send a POST request to `http://localhost:3000/api/ai` with a JSON body. You can download Postman [here](https://www.postman.com/downloads/).
+Or, if you have Postman, you can use that to send a POST request to `http://localhost:3000/ai/question` with a JSON body. You can download Postman [here](https://www.postman.com/downloads/).
 
 ```json
 {
